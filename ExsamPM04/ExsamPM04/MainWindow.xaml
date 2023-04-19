@@ -1,0 +1,20 @@
+﻿<Window x:Class="ExsamPM04.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExsamPM04"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="424.648" Width="512.978">
+    <Grid>
+        <TextBlock Text="Больница:" Margin="206,45,226,319" />
+        <TextBox Name="HospitTextBox" Margin="138,80,161,289"/>
+        <TextBlock Text="ФИО Врача:" Margin="206,110,226,259" />
+        <TextBox x:Name="VrachTextBox" Margin="138,140,161,229"/>
+        <TextBlock Text="ФИО Пациента:" Margin="192,170,226,194" />
+        <TextBox x:Name="PocTextBox" Margin="138,205,161,164"/>
+        <TextBlock Text="Номер в очереди:" Margin="185,235,212,130" />
+        <TextBox x:Name="NumberTextBox" Margin="138,269,161,100"/>
+        <Button Name="ButtonSave" Content="Сохранить" Margin="185,323,202,43" Click="ButtonSave_Click"/>
+    </Grid>
+</Window>
